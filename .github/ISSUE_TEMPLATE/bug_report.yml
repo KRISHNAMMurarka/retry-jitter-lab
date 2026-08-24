@@ -1,0 +1,43 @@
+name: Bug report
+description: Report reproducible incorrect simulation, output, or CLI behaviour.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not disclose a suspected vulnerability here. Follow SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version and platform
+      placeholder: Python 3.13 on macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Minimal command or Python example
+      description: Use synthetic parameters only.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true

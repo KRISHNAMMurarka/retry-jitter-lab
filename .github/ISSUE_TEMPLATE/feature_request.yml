@@ -1,0 +1,27 @@
+name: Feature request
+description: Propose a focused model, report, API, or documentation improvement.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the experiment or workflow that is currently difficult.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Model and evidence
+      description: Explain assumptions, equations, and compatibility impact.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
