@@ -30,3 +30,5 @@ semantics. Keep unrelated changes in separate pull requests.
 
 By contributing, you agree that your contribution is licensed under this
 repository's MIT licence.
+
+Maintainers follow the reviewed-tag process in [Releasing](./docs/releasing.md).
