@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="rjl-title rjl-description">
+  <title id="rjl-title">retry-jitter-lab repository preview</title>
+  <desc id="rjl-description">A graphite and blue systems-lab card showing retry attempts spreading after a service recovery boundary.</desc>
+  <defs>
+    <linearGradient id="rjl-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090D14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="rjl-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8DD7FF"/>
+      <stop offset="1" stop-color="#5B7CFA"/>
+    </linearGradient>
+    <pattern id="rjl-grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#C9D7EA" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="rjl-shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#rjl-background)"/>
+  <rect width="1280" height="640" fill="url(#rjl-grid)"/>
+  <rect width="12" height="640" fill="url(#rjl-accent)"/>
+
+  <g transform="translate(76 72)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect width="44" height="44" rx="13" fill="#111C2C" stroke="#7CCBFA" stroke-opacity="0.58"/>
+    <path d="M13 30V14h5l4 6 4-6h5v16h-5v-8l-4 6-4-6v8z" fill="#EAF4FF"/>
+    <text x="64" y="29" fill="#D9E6F5" font-size="21" font-weight="680" letter-spacing="3.1">KRISHNAM MURARKA · SYSTEMS LAB</text>
+  </g>
+
+  <g transform="translate(76 235)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="0" y="0" fill="#F7FAFC" font-size="72" font-weight="730" letter-spacing="-2.4">retry-jitter-lab</text>
+    <text x="2" y="62" fill="#A9B7C8" font-size="27" font-weight="450">Deterministic backoff experiments.</text>
+  </g>
+
+  <g transform="translate(78 421)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect width="160" height="54" rx="14" fill="#111B29" stroke="#30445F"/>
+    <circle cx="26" cy="27" r="6" fill="#80D4FF"/>
+    <text x="45" y="34" fill="#C8D4E3" font-size="16" font-weight="680" letter-spacing="1.6">SIMULATE</text>
+    <rect x="174" width="156" height="54" rx="14" fill="#111B29" stroke="#30445F"/>
+    <circle cx="200" cy="27" r="4" fill="#60738B"/>
+    <text x="219" y="34" fill="#C8D4E3" font-size="16" font-weight="680" letter-spacing="1.6">COMPARE</text>
+    <rect x="344" width="142" height="54" rx="14" fill="#111B29" stroke="#30445F"/>
+    <circle cx="370" cy="27" r="4" fill="#60738B"/>
+    <text x="389" y="34" fill="#C8D4E3" font-size="16" font-weight="680" letter-spacing="1.6">REPEAT</text>
+  </g>
+
+  <text x="78" y="554" fill="#6F8094" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">github.com/KRISHNAMMurarka/retry-jitter-lab</text>
+
+  <g transform="translate(774 82)" filter="url(#rjl-shadow)" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect width="426" height="476" rx="30" fill="#101825" stroke="#7185A0" stroke-opacity="0.38"/>
+    <text x="34" y="48" fill="#8292A6" font-size="14" font-weight="700" letter-spacing="2.2">RECOVERY WINDOW</text>
+    <path d="M34 86H392" stroke="#2A394D"/>
+    <text x="34" y="119" fill="#B2C0D1" font-size="15" font-weight="650">synchronized retries</text>
+    <text x="252" y="119" fill="#83D5FF" font-size="15" font-weight="650">jittered retries</text>
+
+    <path d="M212 139V391" stroke="#3B4D65" stroke-width="2" stroke-dasharray="5 9"/>
+    <g fill="none" stroke-linecap="round" stroke-width="7">
+      <path d="M42 166H188" stroke="#66768A"/>
+      <path d="M42 212H188" stroke="#66768A"/>
+      <path d="M42 258H188" stroke="#66768A"/>
+      <path d="M42 304H188" stroke="#66768A"/>
+      <path d="M42 350H188" stroke="#66768A"/>
+
+      <path d="M238 166H286" stroke="#83D5FF"/>
+      <path d="M238 212H326" stroke="#74B9FF"/>
+      <path d="M238 258H366" stroke="#668FFB"/>
+      <path d="M238 304H308" stroke="#7BC7FF"/>
+      <path d="M238 350H380" stroke="#5F82F8"/>
+    </g>
+    <g fill="#E8F4FF">
+      <circle cx="188" cy="166" r="5"/><circle cx="188" cy="212" r="5"/><circle cx="188" cy="258" r="5"/><circle cx="188" cy="304" r="5"/><circle cx="188" cy="350" r="5"/>
+    </g>
+    <g fill="#91DAFF">
+      <circle cx="286" cy="166" r="5"/><circle cx="326" cy="212" r="5"/><circle cx="366" cy="258" r="5"/><circle cx="308" cy="304" r="5"/><circle cx="380" cy="350" r="5"/>
+    </g>
+
+    <rect x="34" y="407" width="358" height="44" rx="12" fill="#0A111B" stroke="#283B53"/>
+    <text x="54" y="435" fill="#9AACBF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">same seed · different load shape</text>
+  </g>
+</svg>
