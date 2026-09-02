@@ -166,4 +166,4 @@ See [PROVENANCE.md](./PROVENANCE.md) for the exact extraction boundary.
 ## Licence
 
 [MIT](./LICENSE) © 2026 Edilec Private Limited. Maintained by
-[Krishnam Murarka](https://github.com/KRISHNAMMurarka).
+[Krishnam Murarka](https://edilec.com/authors/krishnam-murarka/).
