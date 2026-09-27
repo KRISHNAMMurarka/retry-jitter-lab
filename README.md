@@ -80,6 +80,10 @@ decorrelated         599          1          0          360.0        3.00       
 These figures are illustrative outputs from this model and seed. Changing the
 scenario changes the result.
 
+The [worked example and chart](https://edilec.com/open-source/retry-jitter-lab/)
+show the same default scenario and explain the recovery-load trade-offs. They
+use synthetic model output, not production traffic.
+
 ## Python API
 
 ```python
